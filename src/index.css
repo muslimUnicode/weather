@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    font-family: 'Inter';
+}

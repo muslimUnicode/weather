@@ -1,0 +1,64 @@
+.card-day {
+    padding: 30px 27px 34px 71px;
+    background: url(../assets/day-bg.gif) center center no-repeat;
+    background-size: cover;
+    width: 760px;
+    height: 312px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+.card-night {
+    padding: 30px 27px 34px 71px;
+    background: url(../assets/night-bg.gif) center center no-repeat;
+    background-size: cover;
+    width: 760px;
+    height: 312px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+.city {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.region {
+    margin: 9px 0 107px 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.localtime {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.right {
+    text-align: end;
+}
+
+.temp_c {
+    margin: 17px 0 71px 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.temp_f {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}

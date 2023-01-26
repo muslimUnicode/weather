@@ -36,7 +36,7 @@ function App() {
             <p className="error-message">{errorMessage}</p>
         </div>
         <div className="cards">
-            {cities.map(item => <Card city={item}/>).reverse()}
+            {cities.map(item => <Card city={item} key={item.location.name}/>).reverse()}
         </div>
     </div>
     )
